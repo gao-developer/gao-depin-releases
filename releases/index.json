@@ -1,0 +1,15 @@
+{
+  "schema": "gao-developer/gao-depin-releases/index/v1",
+  "distribution_repository": "gao-developer/gao-depin-releases",
+  "canonical_source_repository": "gao-core/gao-depin",
+  "releases": [
+    {
+      "tag": "depin-android-dev-9d5aa12d",
+      "platform": "android",
+      "release_tier": "dev",
+      "publication": "releases/depin-android-dev-9d5aa12d/publication.json",
+      "artifact_record": "releases/depin-android-dev-9d5aa12d/artifact-record.json",
+      "sha256sums": "releases/depin-android-dev-9d5aa12d/SHA256SUMS"
+    }
+  ]
+}

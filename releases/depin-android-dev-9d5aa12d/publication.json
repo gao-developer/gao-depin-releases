@@ -1,0 +1,46 @@
+{
+  "schema": "gao-developer/gao-depin-releases/publication/v1",
+  "tag": "depin-android-dev-9d5aa12d",
+  "distribution_repository": "gao-developer/gao-depin-releases",
+  "release_url": "https://github.com/gao-developer/gao-depin-releases/releases/tag/depin-android-dev-9d5aa12d",
+  "release_tier": { "id": "dev", "label": "Developer Preview" },
+  "assets": [
+    {
+      "filename": "gao-depin-dev-android-9d5aa12d-gaokey.apk",
+      "sha256": "2054dfe82ead5c01233c4bf692fb5980a93eb9707ee6082a520e7a56898de467",
+      "size_bytes": 58030032,
+      "content_type": "application/vnd.android.package-archive",
+      "download_url": "https://github.com/gao-developer/gao-depin-releases/releases/download/depin-android-dev-9d5aa12d/gao-depin-dev-android-9d5aa12d-gaokey.apk"
+    },
+    {
+      "filename": "SHA256SUMS",
+      "sha256": "4ec2318c23a5ddb597fbb1fe0c2e416b91e4067a1762faa2db58d536bf5b9f45",
+      "size_bytes": 195,
+      "download_url": "https://github.com/gao-developer/gao-depin-releases/releases/download/depin-android-dev-9d5aa12d/SHA256SUMS"
+    },
+    {
+      "filename": "artifact-record.json",
+      "sha256": "6edc7c30ede0d62b0b23fd37aee88a3026feb17801bec648357b14dc967982c3",
+      "size_bytes": 2604,
+      "download_url": "https://github.com/gao-developer/gao-depin-releases/releases/download/depin-android-dev-9d5aa12d/artifact-record.json"
+    }
+  ],
+  "canonical_source": {
+    "repository": "gao-core/gao-depin",
+    "sha": "9d5aa12d3a06efcca8f4c66c9fe80d3ea3d5de46",
+    "note": "private canonical engineering repository; the identifier is provenance, no source is published"
+  },
+  "artifact_origin": "the exact bytes of the accepted build — never rebuilt, re-signed, aligned, recompressed or repackaged; identical to the first publication",
+  "provenance": {
+    "first_publication": {
+      "repository": "gao-core/gao-depin-releases",
+      "tag": "depin-android-dev-9d5aa12d",
+      "release_url": "https://github.com/gao-core/gao-depin-releases/releases/tag/depin-android-dev-9d5aa12d",
+      "published_at": "2026-09-19T18:03:44Z",
+      "artifact_record_sha256": "6edc7c30ede0d62b0b23fd37aee88a3026feb17801bec648357b14dc967982c3",
+      "sha256sums_sha256": "4ec2318c23a5ddb597fbb1fe0c2e416b91e4067a1762faa2db58d536bf5b9f45",
+      "note": "releases/depin-android-dev-9d5aa12d/artifact-record.json and SHA256SUMS in this repository are those files byte-for-byte; their own repository and URL fields describe the first publication and are preserved unedited"
+    }
+  },
+  "published_at": "2026-09-21T03:08:36Z"
+}

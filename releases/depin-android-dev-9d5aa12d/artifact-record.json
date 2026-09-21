@@ -1,0 +1,59 @@
+{
+  "schema": "gao-core/gao-depin-releases/artifact-record/v1",
+  "tag": "depin-android-dev-9d5aa12d",
+  "distribution_repository": "gao-core/gao-depin-releases",
+  "artifact": {
+    "filename": "gao-depin-dev-android-9d5aa12d-gaokey.apk",
+    "sha256": "2054dfe82ead5c01233c4bf692fb5980a93eb9707ee6082a520e7a56898de467",
+    "size_bytes": 58030032,
+    "content_type": "application/vnd.android.package-archive",
+    "download_url": "https://github.com/gao-core/gao-depin-releases/releases/download/depin-android-dev-9d5aa12d/gao-depin-dev-android-9d5aa12d-gaokey.apk"
+  },
+  "app": {
+    "package": "global.gao.depin.nativedev.debug",
+    "label": "Gao DePIN (dev)",
+    "version_name": "0.1.0-dev",
+    "version_code": 1,
+    "min_sdk": 26,
+    "target_sdk": 36,
+    "abi": [
+      "arm64-v8a"
+    ]
+  },
+  "source": {
+    "source_repository": "gao-core/gao-depin",
+    "source_sha": "9d5aa12d3a06efcca8f4c66c9fe80d3ea3d5de46",
+    "description": "develop at the merge of #126 (fix/android-bound-runtime-start-retry); the source repository is private \u2014 this record, not the tag, binds the commit"
+  },
+  "signing": {
+    "scheme": "APK Signature Scheme v2",
+    "certificate_dn": "C=US, O=Android, CN=Android Debug",
+    "certificate_sha256": "11c82ee79f694a296e048a19928ab641a62a0311214f4e7ba77d9965aa86bd2a",
+    "certificate_sha1": "71ef130e342a1ed36cd82de433778061d19a3e5d",
+    "class": "Android DEV/debug signing certificate \u2014 not a Play Store or Product signing key"
+  },
+  "release_tier": {
+    "id": "dev",
+    "label": "Developer Preview",
+    "distribution": "direct APK download",
+    "not": [
+      "Google Play",
+      "Product",
+      "Stable",
+      "GA"
+    ]
+  },
+  "hardware_acceptance": {
+    "result": "PASS",
+    "date": "2026-09-19",
+    "summary": "first install, Create with GaoKey, Join (one biometric prompt, one signature), reopen, reboot auto-resume, in-app Leave/Rejoin, cross-device isolation \u2014 physical Android devices"
+  },
+  "artifact_origin": "the exact bytes of the accepted build (never rebuilt, re-signed, aligned or repackaged); also preserved as an asset of the private release gao-core/gao-depin depin-android-dev-9d5aa12d",
+  "publication_gate": {
+    "sha256_equals_accepted": true,
+    "size_equals_accepted": true,
+    "generic_artifact_check": "PASS (170 entries; no node ids, owner wallets, membership intents, handoff sessions, device identifiers, identity or state entries)",
+    "secret_safety_review": "PASS (no credential filetypes, no credential patterns, no assigned secret literals)"
+  },
+  "published_at": "2026-09-19T18:02:45Z"
+}
