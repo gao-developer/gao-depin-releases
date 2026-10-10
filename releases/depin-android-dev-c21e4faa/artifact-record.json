@@ -1,0 +1,66 @@
+{
+  "schema": "gao-core/gao-depin-releases/artifact-record/v1",
+  "tag": "depin-android-dev-c21e4faa",
+  "distribution_repository": "gao-developer/gao-depin-releases",
+  "artifact": {
+    "filename": "gao-depin-android-dev-c21e4faa59af.apk",
+    "sha256": "5de7cbf1321117ba2d6d43954fcba0830a51d5e847f22136bd4f9067fb926cac",
+    "size_bytes": 18344130,
+    "content_type": "application/vnd.android.package-archive",
+    "download_url": "https://github.com/gao-developer/gao-depin-releases/releases/download/depin-android-dev-c21e4faa/gao-depin-android-dev-c21e4faa59af.apk"
+  },
+  "app": {
+    "package": "global.gao.depin.nativedev.debug",
+    "label": "Gao DePIN (dev)",
+    "version_name": "0.4.0-dev",
+    "version_code": 4,
+    "min_sdk": 26,
+    "target_sdk": 36,
+    "abi": [
+      "arm64-v8a"
+    ],
+    "debuggable": true
+  },
+  "source": {
+    "source_repository": "gao-core/gao-depin",
+    "source_sha": "c21e4faa59afca661817216fb27b408ba142d494",
+    "source_tree": "e818114dfbde0b8b10bb1c6e1ccf0d0a525dbace",
+    "description": "develop at the merge of #236 (the generation-3 lineage of Gao DePIN V2: one source for the VPS, macOS, Windows, Android and Cloudflare Phase A builds); the source repository is private \u2014 this record, not the tag, binds the commit"
+  },
+  "signing": {
+    "scheme": "APK Signature Scheme v2",
+    "certificate_dn": "C=US, O=Android, CN=Android Debug",
+    "certificate_sha256": "11c82ee79f694a296e048a19928ab641a62a0311214f4e7ba77d9965aa86bd2a",
+    "certificate_sha1": "71ef130e342a1ed36cd82de433778061d19a3e5d",
+    "class": "Android DEV/debug signing certificate (the registered Android DEV signing lane) \u2014 not a Play Store or Product signing key"
+  },
+  "release_tier": {
+    "id": "dev",
+    "label": "Developer Preview",
+    "distribution": "direct APK download",
+    "not": [
+      "Google Play",
+      "Product",
+      "Stable",
+      "GA"
+    ]
+  },
+  "roles": {
+    "probe.v1": "always (outbound contribution)",
+    "compute.v1": "opportunistic, only once the phone qualifies",
+    "inbound_endpoint": "none (a Relay V2 client)",
+    "owner": "a Gao ID, bound from the app (Bind to your Gao ID); a wallet is only a sign-in credential of the Gao ID"
+  },
+  "acceptance": {
+    "internal_acceptance": "PASS \u2014 operator, 2026-10-10, internal developer portal dev.gao.global (runtime 65d3fcaa-1bf3-400b-ab01-2b8b4f2ac4cb), generation-3 candidate set of gao-core/gao-depin c21e4faa59af",
+    "hardware_acceptance": "PENDING \u2014 no physical-device acceptance of these exact bytes is recorded yet"
+  },
+  "artifact_origin": "the exact bytes of the internally accepted build (never rebuilt, re-signed, aligned or repackaged); the same bytes are the DEV artifact depin-android-c21e4faa59af of the internal developer portal",
+  "publication_gate": {
+    "sha256_equals_accepted": true,
+    "size_equals_accepted": true,
+    "generic_artifact_check": "PASS (170 entries; no node ids, owner wallets, membership intents, handoff sessions, device identifiers, identity or state entries)",
+    "secret_safety_review": "PASS (no credential filetypes, no credential patterns, no assigned secret literals)"
+  },
+  "published_at": "2026-10-10T08:42:51Z"
+}

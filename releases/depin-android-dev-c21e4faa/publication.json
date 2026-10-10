@@ -1,0 +1,49 @@
+{
+  "schema": "gao-developer/gao-depin-releases/publication/v1",
+  "tag": "depin-android-dev-c21e4faa",
+  "distribution_repository": "gao-developer/gao-depin-releases",
+  "release_url": "https://github.com/gao-developer/gao-depin-releases/releases/tag/depin-android-dev-c21e4faa",
+  "release_tier": {
+    "id": "dev",
+    "label": "Developer Preview"
+  },
+  "assets": [
+    {
+      "filename": "gao-depin-android-dev-c21e4faa59af.apk",
+      "sha256": "5de7cbf1321117ba2d6d43954fcba0830a51d5e847f22136bd4f9067fb926cac",
+      "size_bytes": 18344130,
+      "content_type": "application/vnd.android.package-archive",
+      "download_url": "https://github.com/gao-developer/gao-depin-releases/releases/download/depin-android-dev-c21e4faa/gao-depin-android-dev-c21e4faa59af.apk"
+    },
+    {
+      "filename": "SHA256SUMS",
+      "sha256": "8e5b8cba859ac2377e2f95482b938b0343f3f938df7e8c2c6ad3af0577cf20a2",
+      "size_bytes": 192,
+      "download_url": "https://github.com/gao-developer/gao-depin-releases/releases/download/depin-android-dev-c21e4faa/SHA256SUMS"
+    },
+    {
+      "filename": "artifact-record.json",
+      "sha256": "2d53fffaadadcfb954be6f48e53d24a9b16a347c7485fdcf0ed4ba22129991bd",
+      "size_bytes": 3204,
+      "download_url": "https://github.com/gao-developer/gao-depin-releases/releases/download/depin-android-dev-c21e4faa/artifact-record.json"
+    }
+  ],
+  "canonical_source": {
+    "repository": "gao-core/gao-depin",
+    "sha": "c21e4faa59afca661817216fb27b408ba142d494",
+    "note": "private canonical engineering repository; the identifier is provenance, no source is published"
+  },
+  "artifact_origin": "the exact bytes of the internally accepted build — never rebuilt, re-signed, aligned, recompressed or repackaged",
+  "supersedes": {
+    "tag": "depin-android-dev-9d5aa12d",
+    "note": "the legacy V1 Android build (0.1.0-dev, versionCode 1) stays published, unchanged; this tag is the current Gao DePIN V2 Android Developer Preview"
+  },
+  "provenance": {
+    "first_publication": {
+      "repository": "gao-developer/gao-depin-releases",
+      "tag": "depin-android-dev-c21e4faa",
+      "note": "first published here"
+    }
+  },
+  "published_at": "2026-10-10T08:42:51Z"
+}
